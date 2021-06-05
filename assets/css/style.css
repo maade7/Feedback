@@ -1,9 +1,4 @@
-/**
-* Template Name: OnePage - v4.3.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -182,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  /* padding: 10px 0 10px 30px; */
   font-size: 14px;
   color: #104d4d;
   white-space: nowrap;
@@ -1090,7 +1085,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(69, 173, 161, 0.6);
+  background: rgba(69, 173, 161, 0.1);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1125,8 +1120,8 @@ section {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid #7ad0c6;
+  border-left: 3px solid #7ad0c6;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -1139,8 +1134,8 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #7ad0c6;
+  border-right: 3px solid #7ad0c6;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -1189,13 +1184,13 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info::before {
-  top: 15px;
-  left: 15px;
+  top: 0px;
+  left: 0px;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
-  bottom: 15px;
-  right: 15px;
+  bottom: 0px;
+  right: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -1683,7 +1678,7 @@ section {
   padding: 15px 0;
   background: #fcf8f2;
   min-height: 40px;
-  margin-top: 72px;
+  margin-top: 68px;
 }
 
 @media (max-width: 992px) {
