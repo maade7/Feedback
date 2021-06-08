@@ -957,7 +957,7 @@ section {
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #45ada1;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -965,7 +965,7 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #45ada1;
 }
 
 .services .iconbox-yellow i {
