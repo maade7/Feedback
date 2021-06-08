@@ -993,7 +993,7 @@ section {
 }
 
 .services .iconbox-teal i {
-  color: #11dbcf;
+  color: #47aeff;
 }
 
 .services .iconbox-teal:hover .icon i {
@@ -1001,7 +1001,7 @@ section {
 }
 
 .services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+  fill: #47aeff;
 }
 
 /*--------------------------------------------------------------
