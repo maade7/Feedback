@@ -1045,6 +1045,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio  {
+  background: #fcf8f2;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1066,7 +1070,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #104d4d;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1201,9 +1205,28 @@ h6{
    color: #45ada1;
 }
 
+ .portfolio-item .portfolio-wrap{
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.portfolio-item .portfolio-wrap:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+#portfolio-details  {
+  background: #fcf8f2;
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1231,6 +1254,7 @@ h6{
 
 .portfolio-details .portfolio-info {
   padding: 30px;
+  background-color: #fff;
   box-shadow: 0px 0 30px rgba(18, 66, 101, 0.08);
 }
 
@@ -1725,7 +1749,7 @@ h6{
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #fcf8f2;
+  /* background: #fcf8f2; */
   min-height: 40px;
   margin-top: 68px;
 }
