@@ -598,6 +598,16 @@ section {
   text-decoration: none;
 }
 
+.steps {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  text-align: center;
+}
+
+.stepFont {
+  font-weight: bold;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
