@@ -474,9 +474,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #45ada1;
 }
 
-#hero .icon-box:hover {
+/* #hero .icon-box:hover {
   transform: scale(1.08);
-}
+} */
 
 #hero .icon-box:hover .title a {
   color: #45ada1;
@@ -778,7 +778,8 @@ section {
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 150px;
+  max-height: 90px;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -1339,11 +1340,15 @@ h6{
 }
 
 #app .btn-get-started:hover {
-  background: #7ad0c6;
+  background: #45ada1;
 }
 
 #app-vid{
   max-width: 50%;
+}
+
+.fst-italic{
+  color: #45ada1;
 }
 
 /*--------------------------------------------------------------
