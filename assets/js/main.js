@@ -268,3 +268,67 @@
   });
 })()
 
+
+
+
+
+
+
+
+
+  /**
+   * update detail page - this was hard!!!
+   */
+
+
+$(document).ready(function () {
+  $('.portfolio-item').click(function () {
+    var pFilter = $(this).attr("data-filter");
+    var pTitle = $(this).find(".title").text();
+    var pDistance = $(this).find(".distance").text();
+    var pCardText = $(this).find(".card-text").text();
+    var pAmount = $(this).find(".amount").text();
+    var pTime = $(this).find(".time").text();
+    var pImg = $(this).find(".img-fluid").attr("src");
+    var pImg2 = $(this).find(".img-fluid").attr("data-img2");
+    var pImg3 = $(this).find(".img-fluid").attr("data-img3");
+    
+    // console.log(pDistance);
+    localStorage.setItem("data-filter", pFilter) ;
+    localStorage.setItem("title", pTitle) ;
+    localStorage.setItem("card-text", pCardText) ;
+    localStorage.setItem("distance", pDistance) ;
+    localStorage.setItem("amount", pAmount) ;
+    localStorage.setItem("time", pTime) ;
+    localStorage.setItem("img-fluid", pImg) ;
+    localStorage.setItem("data-img2", pImg2) ;
+    localStorage.setItem("data-img3", pImg3) ;
+            
+  });
+});
+
+
+
+$(document).ready(function () {
+    var pFilter = localStorage.getItem("data-filter") ;
+    var pTitle = localStorage.getItem("title") ;
+    var pDistance = localStorage.getItem("distance") ;
+    var pCardText = localStorage.getItem("card-text") ;
+    var pAmount = localStorage.getItem("amount") ;
+    var pTime = localStorage.getItem("time") ;
+    var pImg = localStorage.getItem("img-fluid") ;
+    var pImg2 = localStorage.getItem("data-img2");
+    var pImg3 = localStorage.getItem("data-img3");
+    // console.log(pFilter);
+
+    $(".title"+pFilter).text(pTitle);
+    $(".distance"+pFilter).text(pDistance);
+    $(".card-text"+pFilter).text(pCardText);
+    $(".amount"+pFilter).text(pAmount);
+    $(".time"+pFilter).text(pTime);
+    $(".img-fluid"+pFilter).attr("src",pImg); 
+    $(".img2"+pFilter).attr("src",pImg2);
+    $(".img3"+pFilter).attr("src",pImg3);
+
+
+});
