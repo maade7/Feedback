@@ -1325,7 +1325,7 @@ h6{
 # App
 --------------------------------------------------------------*/
 
-#app .btn-get-started {
+.btn-get-started {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1339,8 +1339,9 @@ h6{
   background: #45ada1;
 }
 
-#app .btn-get-started:hover {
-  background: #45ada1;
+.btn-get-started:hover {
+  color: #fff;
+  background: #7ad0c6;
 }
 
 #app-vid{
