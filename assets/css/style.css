@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle {
     display: block;
   }
-  .navbar ul {
+  nav.navbar ul {
     display: none;
   }
 }
@@ -1620,7 +1620,7 @@ h6{
   content: "/";
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
